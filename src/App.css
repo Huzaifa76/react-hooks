@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+}
+.login_form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+.login_form form{
+  width: 500px;
+  background-color: rgb(110, 0, 212);
+  border-radius: 20px;
+  color: white;
+  padding: 40px 50px;
+}
+.form_data{
+  width: 650px;
+  background-color: rgb(110, 0, 212);
+  border-radius: 20px;
+  color: white;
+  padding: 20px 30px;
+  margin-top: 50px;
+  overflow-x: hidden;
+}
+.form_users{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.useEffect{
+  padding: 30px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
