@@ -21,7 +21,7 @@ const Form = () => {
   return (
     <>
       <div className="container login_form">
-      <h1 className='text-center mb-4'>User Login Form</h1>
+      <h2 className='text-center mb-4'>User Login Form</h2>
         <form action="" onSubmit={submitForm}>
           <div className="mb-3">
             <label htmlFor="email">Email:</label>

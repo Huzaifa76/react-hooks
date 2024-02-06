@@ -4,6 +4,7 @@
 }
 body{
   font-family: 'Poppins', sans-serif;
+  background-color: rgb(212, 212, 212) ;
 }
 .login_form{
   display: flex;
@@ -14,17 +15,20 @@ body{
 }
 .login_form form{
   width: 500px;
-  background-color: rgb(110, 0, 212);
+  background-color: rgb(88, 88, 88);
+  box-shadow: 0px 0px 10px rgb(146, 146, 146);
   border-radius: 20px;
   color: white;
   padding: 40px 50px;
 }
 .form_data{
   width: 650px;
-  background-color: rgb(110, 0, 212);
+  background-color: rgb(88, 88, 88);
+  box-shadow: 0px 0px 10px rgb(146, 146, 146);
   border-radius: 20px;
   color: white;
-  padding: 20px 30px;
+  padding: 20px 20px;
+  text-align: center;
   margin-top: 50px;
   overflow-x: hidden;
 }
